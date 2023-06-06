@@ -1,0 +1,21 @@
+{
+    "name": "yuanxiansen/ci-api-response",
+    "description": "A composer package for universal API response function in CodeIgniter framework",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Yuanxiansen\\CiApiResponse\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yuanzhijun",
+            "email": "yuanzhijun@yibaicloud.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "ext-json": "*"
+    }
+}
